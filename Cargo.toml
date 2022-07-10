@@ -1,0 +1,13 @@
+[package]
+name = "tunnel"
+version = "0.1.0"
+edition = "2021"
+build = "build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = "0.24.1"
+tokio = { version = "1", features = ["full"] }
+tokio-fd = "0.3.0"
+libc = "0.2.126"
